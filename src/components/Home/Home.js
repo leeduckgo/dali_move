@@ -42,15 +42,13 @@ function Home() {
         </Container>
         <
           Container 
-          className="home-content"         
+          className="home-content-second"         
           style={{
-          backgroundImage: `url(${daliSecond})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          height: '1012px' 
+          backgroundImage: `url(${daliSecond})`
         }}>
         <center><h1><b>Things to Do</b></h1></center>
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+        <div className="card-container">
+        {/* <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}> */}
           <MyCard
             title="Horse Riding"
             imageUrl={horse}

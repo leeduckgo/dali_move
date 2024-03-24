@@ -22,6 +22,41 @@ button:focus {
   box-shadow: none !important;
 }
 
+/* Define a base class for your container */
+.home-content-second {
+  padding: 6rem 0 0rem !important;
+  color: whitesmoke;
+  text-align: left;
+  background-size: cover;
+  background-position: center;
+  /* Default height for larger screens */
+  height: 1012px; 
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+  .home-content-second {
+    /* Set a different height for smaller screens */
+    height: 2530px; /* Adjust this value based on your design needs */
+  }
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap; /* Allow wrapping */
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+  .card-container {
+    flex-direction: column;
+    height: auto; /* Adjust height for vertical layout */
+  }
+}
+
 /* --------- */
 /*  Preloader */
 /* --------- */
