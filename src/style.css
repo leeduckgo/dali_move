@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  /* --imp-text-color: #c770f0; */
 }
 
 .purple {
@@ -144,7 +144,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    /* background-color: #181a27 !important; */
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -257,7 +257,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -265,7 +265,7 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 6rem 0 0rem !important;
   color: whitesmoke;
   text-align: left;
 }
