@@ -37,7 +37,7 @@ button:focus {
 @media (max-width: 768px) {
   .home-content-second {
     /* Set a different height for smaller screens */
-    height: 2530px; /* Adjust this value based on your design needs */
+    height: 2600px; /* Adjust this value based on your design needs */
   }
 }
 
